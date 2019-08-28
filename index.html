@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Schedule Search</title>
-</head>
-<body>
+  <head>
+    <title>Schedule Search</title>
+    <script src="scripts/filterDate.js"></script>
+  </head>
 
-<h1>Schedule Searcher</h1>
-<p></p>
+  <body>
 
-<table>
-    <tr>
-      <th>Class</th>
-      <th>Section</th> 
-      <th>Day</th>
-      <th>Start</th>
-      <th>End</th>
-    </tr>
-    <tr>
-      <td>CMSC 11</td>
-      <td>A</td> 
-      <td>MTh</td>
-      <td>8:00 AM</td>
-      <td>9:00 AM</td>
-    </tr>
-    <tr>
-      <td>CMSC 11</td>
-      <td>B</td> 
-      <td>TF</td>
-      <td>8:00 AM</td>
-      <td>9:00 AM</td>
-    </tr>
-    <tr>
-      <td>CMSC 11</td>
-      <td>C</td> 
-      <td>MTh</td>
-      <td>2:00 PM</td>
-      <td>3:00 PM</td>
-    </tr>
-  </table>
+      <div>
+        <h1>Schedule Searcher</h1>
+      </div>
 
-</body>
+      <div>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Enter a day of the week">
+      </div>
+
+      <div>
+        <table id="schedule-table">
+          <tr id="schedule-head">
+            <th id="class-head">Class</th>
+            <th id="section-head">Section</th>
+            <th id="day-head">Day</th>
+            <th id="start-head">Start</th>
+            <th id="end-head">End</th>
+          </tr>
+          <tr id="schedule-data">
+            <td id="class-name">CMSC 11</td>
+            <td id="class-section">A</td>
+            <td id="class-day">Monday, Thursday</td>
+            <td id="class-start">8:00 AM</td>
+            <td id="class-end">9:00 AM</td>
+          </tr>
+          <tr id="schedule-data">
+            <td id="class-name">CMSC 11</td>
+            <td id="class-section">B</td>
+            <td id="class-day">Tuesday, Friday</td>
+            <td id="class-start">8:00 AM</td>
+            <td id="class-end">9:00 AM</td>
+          </tr>
+          <tr id="schedule-data">
+            <td id="class-name">CMSC 11</td>
+            <td id="class-section">C</td>
+            <td id="class-day">Monday, Thursday</td>
+            <td id="class-start">2:00 PM</td>
+            <td id="class-end">3:00 PM</td>
+          </tr>
+      </table>
+
+      </div>
+    <p></p>
+
+
+  </body>
 </html>
