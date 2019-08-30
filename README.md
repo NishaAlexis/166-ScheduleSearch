@@ -7,4 +7,7 @@ Instructions to run the backend
 
 If error "module not found" is encountered,
 1. Run CMD in the same directory "project/backend"
-2. Enter "npm install <b>module not found</b>" to add it in your computer
+2. Enter "npm install -module_not-found" to add it in your computer
+
+Change the -module_not_found- with the module that is needed
+Example: npm install nodemon
