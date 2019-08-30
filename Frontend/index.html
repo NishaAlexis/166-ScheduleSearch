@@ -11,25 +11,35 @@
         <h1>Schedule Searcher</h1>
       </div>
 
-      <div class="search-form">
-        <h3>Class Search Criteria</h3>
-        <form>
-          Course Subject:
-          <input type="text" placeholder="subject"> 
-          <input type="button" value="select subject">
+      <div>
+        <form id="studentInfo">
+          Year Level:
+          <select>
+            <option value="firstYear">First Year</option>
+            <option value="secondYear">Second Year</option>
+            <option value="thirdYear">Third Year</option>
+            <option value="fourthYear">Fourth Year</option>
+          </select>
           <br> 
-          Course Number:
-          <input type="text" placeholder="number">
+          Semester:
+          <select>
+            <option value="firstSem">First Semester</option>
+            <option value="secondSem">Second Semester</option>
+            <option value="midSem">Mid-Year</option>
+          </select>
           <br>
-          <input type="checkbox" value="openClass">Show Open Classes Only
-          <br>
-          <input type="button" value="Clear All">
-          <input type="button" value="Search" >
-
+          <input type="button" value="Proceed" onCLick="getInfo()">
         </form>
       </div>
 
-      <div>
+      <script>
+        function getInfo() {
+          document.getElementById("studentInfo").submit();
+          window.location="pages/courseList.html";
+        }
+      </script>
+
+      <!-- <div>
         <input type="text" id="myInput" onkeyup="filterDate()" placeholder="Enter a day of the week">
       </div>
 
@@ -120,6 +130,6 @@
       </tr>
     </table>
     <button id="trigger" onclick="toggle()"><span>Show All</span></button>
-    <script type="text/javascript" src="scripts/filterSections.js"></script>
+    <script type="text/javascript" src="scripts/filterSections.js"></script> -->
   </body>
 </html>
