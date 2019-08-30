@@ -7,4 +7,4 @@ Instructions to run the backend
 
 If error "module not found" is encountered,
 1. Run CMD in the same directory "project/backend"
-2. Enter "npm install <module not found>" to add it in your computer
+2. Enter "npm install <b>module not found</b>" to add it in your computer
