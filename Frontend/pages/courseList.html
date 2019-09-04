@@ -2,12 +2,11 @@
 <html>
   <head>
     <title>Course List</title>
+    <script src="scripts/index.js"></script>
   </head>
 
   <body>
-      <div>
-        <!-- php query for inputted sem and year -->
-        <h1>Semester, Yr. Level</h1>
+      <div >
           <table id="course-table">
             <tr id="course-head">
               <th id="courseType-head">Course Type</th>
@@ -15,8 +14,6 @@
               <th id="description-head">Description</th>
               <th id="units-head">Units</th>
             </tr>
-            <!--php query extracted data-->
-            <!-- sample query result -->
             <tr id="course-data">
               <td id="courseType">Foundation</th>
               <td id="subject">Math 55</th>
@@ -44,3 +41,12 @@
     </div>
   </body>
 </html>
+<!-- <?php
+/*$db = pg_connect("host = localhost
+                  port = 5432
+                  dbname = schedulerdb
+                  user = scheduler_user
+                  password = sc_password);
+$result = pg_query($db, "SELECT * FROM subjectnum where semester = '1' and yearLvl = '1'");
+$row = pg_fetch_assoc($result);
+echo $row; */ -->

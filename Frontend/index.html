@@ -1,43 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Schedule Search</title>
-    <script src="scripts/filterDate.js"></script>
+    <title>Schedule Searcher</title>
+    <!-- <script src="scripts/filterDate.js"></script> -->
+    <script src="scripts/index.js"></script>
   </head>
 
   <body>
 
       <div>
         <h1>Schedule Searcher</h1>
+        <hr>
       </div>
 
-      <div>
-        <form id="studentInfo">
+      <h2 id="studentInfo"></h2>
+
+      <div id="studentForms" >  
+        <!-- <form id="studentInfo" action="pages/courseList.php" method="POST" onSubmit="return myFunction()"> -->
+        <form>
           Year Level:
-          <select>
-            <option value="firstYear">First Year</option>
-            <option value="secondYear">Second Year</option>
-            <option value="thirdYear">Third Year</option>
-            <option value="fourthYear">Fourth Year</option>
+          <select id="year">
+            <option value="First">First Year</option>
+            <option value="Second">Second Year</option>
+            <option value="Third">Third Year</option>
+            <option value="Fourth">Fourth Year</option>
           </select>
           <br> 
           Semester:
-          <select>
-            <option value="firstSem">First Semester</option>
-            <option value="secondSem">Second Semester</option>
-            <option value="midSem">Mid-Year</option>
+          <select id="sem">
+            <option value="First">First Semester</option>
+            <option value="Second">Second Semester</option>
+            <option value="Midyear">Mid-Year</option>
           </select>
           <br>
-          <input type="button" value="Proceed" onCLick="getInfo()">
         </form>
+        <br>
+      </div>
+      <button id="trigger" onclick="proceed()">Proceed</button>
+
+      <div id="hiddenCourse" style="display:none">
+          <table id="course-table">
+            <tr id="course-head">
+              <th id="courseType-head">Course Type</th>
+              <th id="subject-head">Subject</th>
+              <th id="description-head">Description</th>
+              <th id="units-head">Units</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">Foundation</th>
+              <td id="subject">Math 55</th>
+              <td id="description">Elementary Analysis III</th>
+              <td id="units">3</th>
+            </tr>
+          </table>
+          <hr>
+      </div>
+      
+
+      <div id="hiddenCourseOffers" style="display:none">
+          <h2>Courses Offered</h2>
+
+          <table>
+            <tr>
+              <th>Subject</th>
+              <th>Section</th>
+              <th>Days</th>
+              <th>Start Time</th>
+              <th>End Time</th>
+            </tr>
+            <tr>
+              <td>Math 55</td>
+              <td>A</td>
+              <td>MONDAY THURSDAY</td>
+              <td>1:30</td>
+              <td>3:00</td>
+            </tr>
+            <tr>
+                <td>Math 55</td>
+                <td>B</td>
+                <td>TUESDAY FRIDAY</td>
+                <td>1:30</td>
+                <td>3:00</td>
+              </tr>
+          </table>
+          <br>
+          <button id="finder" >Find A Schedule</button>
       </div>
 
-      <script>
+      <!-- <script>
         function getInfo() {
           document.getElementById("studentInfo").submit();
           window.location="pages/courseList.html";
         }
-      </script>
+      </script> -->
 
       <!-- <div>
         <input type="text" id="myInput" onkeyup="filterDate()" placeholder="Enter a day of the week">
