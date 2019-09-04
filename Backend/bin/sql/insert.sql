@@ -1,110 +1,114 @@
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '3', '11', 'true', 'Introduction to Computer Science');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '3', '11', 'true', 'Introduction to Computer Science', '1', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '3', '21', 'true', 'Fundamentals of Programming');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '3', '21', 'true', 'Fundamentals of Programming', '1', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '3', '57', 'true', 'Discrete Mathematical Structures in Computer Science 2');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '3', '56', 'true', 'Discrete Mathematical Structures in Computer Science 1', '1', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '3', '23', 'true', 'Programming Paradigms');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '3', '57', 'true', 'Discrete Mathematical Structures in Computer Science 2', '1', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '3', '123', 'true', 'Data Structures');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '3', '23', 'true', 'Programming Paradigms', '2', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '130', 'true', 'Logic Design and Digital Computer Circuits');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '3', '123', 'true', 'Data Structures', '2', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '106', 'true', 'Research Methods for Computer Science');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '130', 'true', 'Logic Design and Digital Computer Circuits', '2', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '127', 'true', 'File Processing and Database Systems');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '106', 'true', 'Research Methods for Computer Science', '2', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '133', 'true', 'Introduction to Computer Organization, Architecture and Machine-Level Programming');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '127', 'true', 'File Processing and Database Systems', '2', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '141', 'true', 'Introduction to the Theory of Computation');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '133', 'true', 'Introduction to Computer Organization, Architecture and Machine-Level Programming', '2', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '110', 'true', 'Technical Writing for Computer Science');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '141', 'true', 'Introduction to the Theory of Computation', '2', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '124', 'true', 'Design and Implementation of Programming Languages');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '110', 'true', 'Technical Writing for Computer Science', '3', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '128', 'true', 'Software Engineering 1');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '124', 'true', 'Design and Implementation of Programming Languages', '3', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '142', 'true', 'Design and Analysis of Algorithms');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '128', 'true', 'Software Engineering 1', '3', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '192', 'true', 'Ethical and Professional Issues of Computing');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '142', 'true', 'Design and Analysis of Algorithms', '3', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '194.1', 'true', 'Research Intership 1');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '192', 'true', 'Ethical and Professional Issues of Computing', '3', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '125', 'true', 'Operating Systems');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '194.1', 'true', 'Research Intership 1', '3', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '129', 'true', 'Software Engineering 2');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '125', 'true', 'Operating Systems', '3', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '170', 'true', 'Introduction to Artificial Intelligence');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '129', 'true', 'Software Engineering 2', '3', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '194.2', 'true', 'Research Internship 2');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '170', 'true', 'Introduction to Artificial Intelligence', '3', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '195', 'true', 'Practicum');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '194.2', 'true', 'Research Internship 2', '3', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '137', 'true', 'Data Communication and Networking');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '195', 'true', 'Practicum', '3', '3');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '173', 'true', 'Machine Learning');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '137', 'true', 'Data Communication and Networking', '4', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '198.1', 'true', 'Special Problem 1');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '173', 'true', 'Machine Learning', '4', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '134', 'true', 'Introduction to Computer Security');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '198.1', 'true', 'Special Problem 1', '4', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '196', 'true', 'Technopreneurship');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '134', 'true', 'Introduction to Computer Security', '4', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('1', '2', '198.2', 'true', 'Special Problem 2');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '196', 'true', 'Technopreneurship', '4', '2');
+
+INSERT INTO subjectNum
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('1', '2', '198.2', 'true', 'Special Problem 2', '4', '2');
 
 INSERT INTO subjectNum
     ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
@@ -181,61 +185,61 @@ VALUES('1', '5', '181', 'true', 'Introduction to Parallel Computing');
 -- GEs
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('5', '1', '1', 'true', 'Self and Society 1');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('5', '1', '1', 'true', 'Self and Society 1', '1', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('14', '1', '1', 'true', 'Kasaysayan ng Pilipinas');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('14', '1', '1', 'true', 'Kasaysayan ng Pilipinas', '1', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered")
-VALUES('3', '6', '1', 'true');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "yearLvl", "semester")
+VALUES('3', '6', '1', 'true', '1', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered")
-VALUES('3', '6', '2', 'true');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "yearLvl", "semester")
+VALUES('3', '6', '2', 'true', '1', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('7', '7', '1', 'true', 'National Service Training Program 1');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('7', '7', '1', 'true', 'National Service Training Program 1', '1', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('7', '7', '2', 'true', 'National Service Training Program 2');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('7', '7', '2', 'true', 'National Service Training Program 2', '1', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('8', '1', '10', 'true', 'Critical Perspectives in Communication');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('8', '1', '10', 'true', 'Critical Perspectives in Communication', '1', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('9', '1', '11', 'true', 'Living Systems: Concenpts and Dynamics');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('9', '1', '11', 'true', 'Living Systems: Concenpts and Dynamics', '1', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('2', '1', '1', 'true', 'Ethics and Moral Reasoning in Everyday Life');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('2', '1', '1', 'true', 'Ethics and Moral Reasoning in Everyday Life', '2', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('12', '1', '1', 'true', 'Critical Perspectives in the Art');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('12', '1', '1', 'true', 'Critical Perspectives in the Art', '2', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('2', '1', '10', 'true', 'Mathematics, Culture and Society');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('2', '1', '10', 'true', 'Mathematics, Culture and Society', '2', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('13', '1', '1', 'true', 'Science, Technology and Society');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('13', '1', '1', 'true', 'Science, Technology and Society', '3', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('2', '3', '53', 'true', 'Elementary Analysis 1');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('2', '3', '53', 'true', 'Elementary Analysis 1', '1', '1');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('2', '3', '54', 'true', 'Elementary Analysis 2');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('2', '3', '54', 'true', 'Elementary Analysis 2', '1', '2');
 
 INSERT INTO subjectNum
-    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc")
-VALUES('6', '3', '123', 'true', 'Probability and Statistics');
+    ("subjectId", "courseTypeId", "subjectNum", "isOffered", "subjectDesc", "yearLvl", "semester")
+VALUES('6', '3', '123', 'true', 'Probability and Statistics', '1', '1');
