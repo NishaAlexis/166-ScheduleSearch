@@ -11,3 +11,11 @@ function proceed() {
 
   }
 
+
+function findSched() {
+  document.getElementById("hiddenCourse").style.display = "none";
+  document.getElementById("hiddenCourseOffers").style.display = "none";
+  
+  document.getElementById("hiddenSchedules").style.display = "block";
+}
+
