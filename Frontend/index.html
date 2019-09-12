@@ -4,6 +4,7 @@
     <title>Schedule Searcher</title>
     <!-- <script src="scripts/filterDate.js"></script> -->
     <script src="scripts/index.js"></script>
+    <script src="scripts/fetchData.js"></script>
   </head>
 
   <body>
@@ -15,7 +16,7 @@
 
       <h2 id="studentInfo"></h2>
 
-      <div id="studentForms" >  
+      <div id="studentForms" >
         <!-- <form id="studentInfo" action="pages/courseList.php" method="POST" onSubmit="return myFunction()"> -->
         <form>
           Year Level:
@@ -25,7 +26,7 @@
             <option value="Third">Third Year</option>
             <option value="Fourth">Fourth Year</option>
           </select>
-          <br> 
+          <br>
           Semester:
           <select id="sem">
             <option value="First">First Semester</option>
@@ -97,7 +98,7 @@
           </table>
           <hr>
       </div>
-      
+
 
       <div id="hiddenCourseOffers" style="display:none">
           <h2>Courses Offered</h2>
@@ -243,7 +244,7 @@
               <td>1:00</td>
               <td>4:00</td>
             </tr>
-            
+
           </table>
           <br>
           <button id="finder" onclick="findSched()">Find A Schedule</button>
@@ -486,7 +487,7 @@
 
   </body>
 
-<!-- 
+<!--
 
 const formToJSON = elements => [].reduce.call(elements, (data, element) => {
 

@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const userRouter = require('./api/user');
 
 const app = express();
-app.use(cors({ origin: 'http://localhost:3000' }));
+//app.use(cors({ origin: '*' }));
 app.use(bodyParser.json());
 
 app.use('/user', userRouter);
