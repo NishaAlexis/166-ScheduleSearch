@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Schedule Searcher</title>
+    <!-- <script src="scripts/filterDate.js"></script> -->
+    <script src="scripts/index.js"></script>
+    <script src="scripts/fetchData.js"></script>
+  </head>
+
+  <body>
+
+      <div>
+        <h1>Schedule Searcher</h1>
+        <hr>
+      </div>
+
+      <h2 id="studentInfo"></h2>
+
+      <div id="studentForms" >
+        <!-- <form id="studentInfo" action="pages/courseList.php" method="POST" onSubmit="return myFunction()"> -->
+        <form>
+          Year Level:
+          <select id="year">
+            <option value="First">First Year</option>
+            <option value="Second">Second Year</option>
+            <option value="Third">Third Year</option>
+            <option value="Fourth">Fourth Year</option>
+          </select>
+          <br>
+          Semester:
+          <select id="sem">
+            <option value="First">First Semester</option>
+            <option value="Second">Second Semester</option>
+            <option value="Midyear">Mid-Year</option>
+          </select>
+          <br>
+        </form>
+        <br>
+      </div>
+      <button id="trigger" onclick="proceed()">Proceed</button>
+
+      <div id="hiddenCourse" style="display:none">
+          <table id="course-table">
+            <tr id="course-head">
+              <th id="courseType-head">Course Type</th>
+              <th id="subject-head">Subject</th>
+              <th id="description-head">Description</th>
+              <th id="units-head">Units</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">GE</th>
+              <td id="subject">SAS 1</th>
+              <td id="description">Self and Society</th>
+              <td id="units">3</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">GE</th>
+              <td id="subject">KAS 1</th>
+              <td id="description">Kasaysayan ng Pilipinas</th>
+              <td id="units">3</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">Foundation</th>
+              <td id="subject">CMSC 11</th>
+              <td id="description">Introduction to Computer Science</th>
+              <td id="units">3</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">Foundation</th>
+              <td id="subject">CMSC 56</th>
+              <td id="description">Discrete Mathematical Structures in Computer Science 1</th>
+              <td id="units">3</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">Foundation</th>
+              <td id="subject">MATH 53</th>
+              <td id="description">Elementary Analysis 1</th>
+              <td id="units">5</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">Foundation</th>
+              <td id="subject">STAT 123</th>
+              <td id="description"></th>
+              <td id="units">3</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">PE</th>
+              <td id="subject">PE 2</th>
+              <td id="description"></th>
+              <td id="units">2</th>
+            </tr>
+            <tr id="course-data">
+              <td id="courseType">NSTP</th>
+              <td id="subject">NSTP 1</th>
+              <td id="description">National Training Service Program 1</th>
+              <td id="units">3</th>
+            </tr>
+          </table>
+          <hr>
+      </div>
+
+
+      <div id="hiddenCourseOffers" style="display:none">
+          <h2>Courses Offered</h2>
+
+          <table>
+            <tr>
+              <th>Subject</th>
+              <th>Section</th>
+              <th>Days</th>
+              <th>Start Time</th>
+              <th>End Time</th>
+            </tr>
+            <tr>
+              <td>CMSC 56</td>
+              <td>D</td>
+              <td>SATURDAY</td>
+              <td>9:00</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <td>CMSC 56</td>
+              <td>E</td>
+              <td>SATURDAY</td>
+              <td>1:00</td>
+              <td>4:00</td>
+            </tr>
+            <tr>
+              <td>CMSC 56</td>
+              <td>F</td>
+              <td>MONDAY THURSDAY</td>
+              <td>7:30</td>
+              <td>9:00</td>
+            </tr>
+            <tr>
+              <td>MATH 53</td>
+              <td>A</td>
+              <td>MONDAY THURSDAY</td>
+              <td>9:00</td>
+              <td>10:30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TUESDAY FRIDAY</td>
+              <td>9:00</td>
+              <td>10:00</td>
+            </tr>
+            <tr>
+              <td>MATH 53</td>
+              <td>B</td>
+              <td>MONDAY THURSDAY</td>
+              <td>7:30</td>
+              <td>9:00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TUESDAY FRIDAY</td>
+              <td>8:00</td>
+              <td>9:00</td>
+            </tr>
+            <tr>
+              <td>MATH 53</td>
+              <td>C</td>
+              <td>MONDAY THURSDAY</td>
+              <td>10:30</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TUESDAY FRIDAY</td>
+              <td>10:30</td>
+              <td>11:30</td>
+            </tr>
+            <tr>
+              <td>MATH 53</td>
+              <td>D</td>
+              <td>MONDAY THURSDAY</td>
+              <td>3:00</td>
+              <td>4:30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TUESDAY FRIDAY</td>
+              <td>3:00</td>
+              <td>4:00</td>
+            </tr>
+            <tr>
+              <td>MATH 53</td>
+              <td>E</td>
+              <td>MONDAY THURSDAY</td>
+              <td>7:00</td>
+              <td>8:30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TUESDAY FRIDAY</td>
+              <td>7:30</td>
+              <td>8:30</td>
+            </tr>
+            <tr>
+              <td>NSTPCWTS 1</td>
+              <td>A</td>
+              <td>WEDNESDAY</td>
+              <td>9:00</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <td>NSTPCWTS 1</td>
+              <td>B</td>
+              <td>WEDNESDAY</td>
+              <td>9:00</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <td>NSTPCWTS 1</td>
+              <td>C</td>
+              <td>WEDNESDAY</td>
+              <td>9:00</td>
+              <td>12:00</td>
+            </tr>
+            <tr>
+              <td>NSTPCWTS 1</td>
+              <td>D</td>
+              <td>WEDNESDAY</td>
+              <td>1:00</td>
+              <td>4:00</td>
+            </tr>
+            <tr>
+              <td>NSTPCWTS 1</td>
+              <td>E</td>
+              <td>WEDNESDAY</td>
+              <td>1:00</td>
+              <td>4:00</td>
+            </tr>
+            <tr>
+              <td>NSTPCWTS 1</td>
+              <td>F</td>
+              <td>WEDNESDAY</td>
+              <td>1:00</td>
+              <td>4:00</td>
+            </tr>
+
+          </table>
+          <br>
+          <button id="finder" onclick="findSched()">Find A Schedule</button>
+      </div>
+
+      <div id="hiddenSchedules" style="display:none">
+        <h2>Schedule A</h2>
+        <table>
+          <tr>
+            <th></th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+            <th>SATURDAY</th>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">7:30AM</td>
+            <td>CMSC 56 F</td>
+            <td></td>
+            <td></td>
+            <td>CMSC 56 F</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">9:00AM</td>
+            <td>MATH 53 A</td>
+            <td>MATH 53 A</td>
+            <td>NSTPCWTS 1 B</td>
+            <td>MATH 53 A</td>
+            <td>MATH 53 A</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">10:30AM</td>
+            <td></td>
+            <td></td>
+            <td>NSTPCWTS 1 B</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">12:00PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">1:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">3:00PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">4:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <button>Choose Schedule A</button>
+        <hr>
+
+        <h2>Schedule B</h2>
+        <table>
+          <tr>
+            <th></th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+            <th>SATURDAY</th>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">7:30AM</td>
+            <td>MATH 53 B</td>
+            <td>MATH 53 B</td>
+            <td></td>
+            <td>MATH 53 B</td>
+            <td>MATH 53 B</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">9:00AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>CMSC 56 D</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">10:30AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>CMSC 56 D</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">12:00PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">1:30PM</td>
+            <td></td>
+            <td></td>
+            <td>NSTPCWTS 1 E</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">3:00PM</td>
+            <td></td>
+            <td></td>
+            <td>NSTPCWTS 1 E</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">4:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <button>Choose Schedule B</button>
+        <hr>
+
+        <h2>Schedule C</h2>
+        <table>
+          <tr>
+            <th></th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+            <th>SATURDAY</th>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">7:30AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">9:00AM</td>
+            <td></td>
+            <td></td>
+            <td>NSTPCWTS 1 A</td>
+            <td></td>
+            <td></td>
+            <td>CMSC 56 D</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">10:30AM</td>
+            <td></td>
+            <td></td>
+            <td>NSTPCWTS 1 A</td>
+            <td></td>
+            <td></td>
+            <td>CMSC 56 D</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">12:00PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">1:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">3:00PM</td>
+            <td>MATH 53 D</td>
+            <td>MATH 53 D</td>
+            <td></td>
+            <td>MATH 53 D</td>
+            <td>MATH 53 D</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold">4:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <button>Choose Schedule C</button>
+      </div>
+
+  </body>
+
+<!--
+
+const formToJSON = elements => [].reduce.call(elements, (data, element) => {
+
+  data[element.name] = element.value;
+  return data;
+
+}, {});
+
+const handleFormSubmit = event => {
+
+event.preventDefault();
+
+const data = {};
+
+const dataContainer - document.getElementsByClassName('results_display')[0];
+
+dataContainer.textContent = JSON.stringify(data, null, " ");
+
+};
+
+const form = document.getElementsByClassName('index')[0];
+form.addEventListener('submit', handleFormSubmit);
+
+-->
+
+</html>
+
