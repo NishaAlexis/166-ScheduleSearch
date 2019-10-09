@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"subjectName": "Computer Science",
+		"acro": "CMSC"
+	},
+	{
+		"id": 2,
+		"subjectName": "Mathematics",
+		"acro": "MATH"
+	},
+	{
+		"id": 3,
+		"subjectName": "Physical Education",
+		"acro": "PE"
+	},
+	{
+		"id": 4,
+		"subjectName": null,
+		"acro": "PI"
+	},
+	{
+		"id": 5,
+		"subjectName": "Self And Society",
+		"acro": "SAS"
+	},
+	{
+		"id": 6,
+		"subjectName": "Statistics",
+		"acro": "STAT"
+	},
+	{
+		"id": 7,
+		"subjectName": "National Service Training Program",
+		"acro": "NSTP"
+	},
+	{
+		"id": 8,
+		"subjectName": "Communication",
+		"acro": "COMM"
+	},
+	{
+		"id": 9,
+		"subjectName": null,
+		"acro": "SCIENCE"
+	},
+	{
+		"id": 10,
+		"subjectName": null,
+		"acro": "PHYSICS"
+	},
+	{
+		"id": 11,
+		"subjectName": null,
+		"acro": "ETHICS"
+	},
+	{
+		"id": 12,
+		"subjectName": null,
+		"acro": "ARTS"
+	},
+	{
+		"id": 13,
+		"subjectName": "Science, Technology and Society",
+		"acro": "STS"
+	},
+	{
+		"id": 14,
+		"subjectName": "Kasaysayan",
+		"acro": "KAS"
+	}
+]
