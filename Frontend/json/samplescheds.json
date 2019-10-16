@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "subjectNumId": 6,
+        "section": "A",
+        "days": "MTH",
+        "start_time": "8:00" ,
+        "end_time": "9:00"
+    },
+    {
+        "id": 2,
+        "subjectNumId": 6,
+        "section": "B",
+        "days": "TF",
+        "start_time": "8:00" ,
+        "end_time": "9:00"
+    },
+    {
+        "id": 3,
+        "subjectNumId": 6,
+        "section": "A1",
+        "days": "M",
+        "start_time": "9:00" ,
+        "end_time": "12:00"
+    },
+    {
+        "id": 4,
+        "subjectNumId": 6,
+        "section": "A2",
+        "days": "TH",
+        "start_time": "9:00" ,
+        "end_time": "12:00"
+    },
+    {
+        "id": 5,
+        "subjectNumId": 6,
+        "section": "B1",
+        "days": "T",
+        "start_time": "9:00" ,
+        "end_time": "12:00"
+    },
+    {
+        "id": 6,
+        "subjectNumId": 6,
+        "section": "B2",
+        "days": "F",
+        "start_time": "9:00" ,
+        "end_time": "12:00"
+    },
+    {
+        "id": 7,
+        "subjectNumId": 59,
+        "section": "A",
+        "days": "MTH",
+        "start_time": "1:30" ,
+        "end_time": "3:00"
+    },
+    {
+        "id": 8,
+        "subjectNumId": 55,
+        "section": "B",
+        "days": "TF",
+        "start_time": "1:30" ,
+        "end_time": "3:00"
+    },
+    {
+        "id": 9,
+        "subjectNumId": 55,
+        "section": "A",
+        "days": "MTH",
+        "start_time": "1:30" ,
+        "end_time": "3:00"
+    },
+    {
+        "id": 10,
+        "subjectNumId": 6,
+        "section": "A",
+        "days": "MTH",
+        "start_time": "3:00" ,
+        "end_time": "4:30"
+    },
+    {
+        "id": 11,
+        "subjectNumId": 6,
+        "section": "B",
+        "days": "TF",
+        "start_time": "3:00" ,
+        "end_time": "4:30"
+    },
+    {
+        "id": 12,
+        "subjectNumId": 6,
+        "section": "A1",
+        "days": "M",
+        "start_time": "9:00" ,
+        "end_time": "12:00"
+    },
+    {
+        "id": 13,
+        "subjectNumId": 6,
+        "section": "A2",
+        "days": "TH",
+        "start_time": "9:00" ,
+        "end_time": "12:00"
+    },
+    {
+        "id": 14,
+        "subjectNumId": 6,
+        "section": "B1",
+        "days": "T",
+        "start_time": "9:00" ,
+        "end_time": "12:00"
+    },
+    {
+        "id": 15,
+        "subjectNumId": 6,
+        "section": "B2",
+        "days": "F",
+        "start_time": "9:00" ,
+        "end_time": "12:00"
+    }
+]
