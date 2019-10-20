@@ -1,0 +1,612 @@
+[
+    {
+        "id": 1,
+        "subjectId": 1,
+        "courseTypeId": 3,
+        "subjectNum": "11",
+        "isOffered": true,
+        "subjectDesc": "Introduction to Computer Science",
+        "yearLvl": 1,
+        "semester": 1
+    },
+  {
+        "id": 2,
+        "subjectId": 1,
+        "courseTypeId": 3,
+        "subjectNum": "21",
+        "isOffered": true,
+        "subjectDesc": "Fundamentals of Programming",
+        "yearLvl": 1,
+        "semester": 2
+    },
+  {
+        "id": 3,
+        "subjectId": 1,
+        "courseTypeId": 3,
+        "subjectNum": "56",
+        "isOffered": true,
+        "subjectDesc": "Discrete Mathematical Structures in Computer Science 1",
+        "yearLvl": 1,
+        "semester": 1
+    },
+  {
+        "id": 4,
+        "subjectId": 1,
+        "courseTypeId": 3,
+        "subjectNum": "57",
+        "isOffered": true,
+        "subjectDesc": "Discrete Mathematical Structures in Computer Science 2",
+        "yearLvl": 1,
+        "semester": 2
+    },
+  {
+        "id": 5,
+        "subjectId": 1,
+        "courseTypeId": 3,
+        "subjectNum": "23",
+        "isOffered": true,
+        "subjectDesc": "Programming Paradigms",
+        "yearLvl": 2,
+        "semester": 1
+    },
+  {
+        "id": 6,
+        "subjectId": 1,
+        "courseTypeId": 3,
+        "subjectNum": "123",
+        "isOffered": true,
+        "subjectDesc": "Data Structures",
+        "yearLvl": 2,
+        "semester": 1
+    },
+  {
+        "id": 7,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "130",
+        "isOffered": true,
+        "subjectDesc": "Logic Design and Digital Computer Circuits",
+        "yearLvl": 2,
+        "semester": 1
+    },
+  {
+        "id": 8,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "106",
+        "isOffered": true,
+        "subjectDesc": "Research Methods for Computer Science",
+        "yearLvl": 2,
+        "semester": 2
+    },
+  {
+        "id": 9,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "127",
+        "isOffered": true,
+        "subjectDesc": "File Processing and Database Systems",
+        "yearLvl": 2,
+        "semester": 2
+    },
+  {
+        "id": 10,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "133",
+        "isOffered": true,
+        "subjectDesc": "Introduction to Computer Organization, Architecture and Machine-Level Programming",
+        "yearLvl": 2,
+        "semester": 2
+    },
+  {
+        "id": 11,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "141",
+        "isOffered": true,
+        "subjectDesc": "Introduction to the Theory of Computation",
+        "yearLvl": 2,
+        "semester": 2
+    },
+  {
+        "id": 12,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "110",
+        "isOffered": true,
+        "subjectDesc": "Technical Writing for Computer Science",
+        "yearLvl": 3,
+        "semester": 1
+    },
+  {
+        "id": 13,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "124",
+        "isOffered": true,
+        "subjectDesc": "Design and Implementation of Programming Languages",
+        "yearLvl": 3,
+        "semester": 1
+    },
+  {
+        "id": 14,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "128",
+        "isOffered": true,
+        "subjectDesc": "Software Engineering 1",
+        "yearLvl": 3,
+        "semester": 1
+    },
+  {
+        "id": 15,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "142",
+        "isOffered": true,
+        "subjectDesc": "Design and Analysis of Algorithms",
+        "yearLvl": 3,
+        "semester": 1
+    },
+  {
+        "id": 16,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "192",
+        "isOffered": true,
+        "subjectDesc": "Ethical and Professional Issues of Computing",
+        "yearLvl": 3,
+        "semester": 1
+    },
+  {
+        "id": 17,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "194.1",
+        "isOffered": true,
+        "subjectDesc": "Research Intership 1",
+        "yearLvl": 3,
+        "semester": 1
+    },
+  {
+        "id": 18,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "125",
+        "isOffered": true,
+        "subjectDesc": "Operating Systems",
+        "yearLvl": 3,
+        "semester": 2
+    },
+  {
+        "id": 19,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "129",
+        "isOffered": true,
+        "subjectDesc": "Software Engineering 2",
+        "yearLvl": 3,
+        "semester": 2
+    },
+  {
+        "id": 20,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "170",
+        "isOffered": true,
+        "subjectDesc": "Introduction to Artificial Intelligence",
+        "yearLvl": 3,
+        "semester": 2
+    },
+  {
+        "id": 21,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "194.2",
+        "isOffered": true,
+        "subjectDesc": "Research Internship 2",
+        "yearLvl": 3,
+        "semester": 2
+    },
+  {
+        "id": 22,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "195",
+        "isOffered": true,
+        "subjectDesc": "Practicum",
+        "yearLvl": 3,
+        "semester": 3
+    },
+  {
+        "id": 23,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "137",
+        "isOffered": true,
+        "subjectDesc": "Data Communication and Networking",
+        "yearLvl": 4,
+        "semester": 1
+    },
+  {
+        "id": 24,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "173",
+        "isOffered": true,
+        "subjectDesc": "Machine Learning",
+        "yearLvl": 4,
+        "semester": 1
+    },
+  {
+        "id": 25,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "198.1",
+        "isOffered": true,
+        "subjectDesc": "Special Problem 1",
+        "yearLvl": 4,
+        "semester": 1
+    },
+  {
+        "id": 26,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "134",
+        "isOffered": true,
+        "subjectDesc": "Introduction to Computer Security",
+        "yearLvl": 4,
+        "semester": 2
+    },
+  {
+        "id": 27,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "196",
+        "isOffered": true,
+        "subjectDesc": "Technopreneurship",
+        "yearLvl": 4,
+        "semester": 2
+    },
+  {
+        "id": 28,
+        "subjectId": 1,
+        "courseTypeId": 2,
+        "subjectNum": "198.2",
+        "isOffered": true,
+        "subjectDesc": "Special Problem 2",
+        "yearLvl": 4,
+        "semester": 2
+    },
+  {
+        "id": 29,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "22",
+        "isOffered": true,
+        "subjectDesc": "Fundamentals of Object-Oriented Programming",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 30,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "126",
+        "isOffered": true,
+        "subjectDesc": "Web Engineering",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 31,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "143",
+        "isOffered": true,
+        "subjectDesc": "Computability",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 32,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "151",
+        "isOffered": true,
+        "subjectDesc": "Systems Analysis and Design",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 33,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "152",
+        "isOffered": true,
+        "subjectDesc": "Management Information Systems",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 34,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "153",
+        "isOffered": true,
+        "subjectDesc": "Accounting and Information Systems",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 35,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "161",
+        "isOffered": true,
+        "subjectDesc": "Interactive Computer Graphics",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 36,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "162",
+        "isOffered": true,
+        "subjectDesc": "3D Computer Graphics and Animation",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 37,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "165",
+        "isOffered": true,
+        "subjectDesc": "Introduction to Project Management",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 38,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "166",
+        "isOffered": true,
+        "subjectDesc": "Introduction to Quality Concepts",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 39,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "167",
+        "isOffered": true,
+        "subjectDesc": "Software Validation and Verification",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 40,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "171",
+        "isOffered": true,
+        "subjectDesc": "Expert Systems and Knowledge Engineering",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 41,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "176",
+        "isOffered": true,
+        "subjectDesc": "Topics in Theoretical Computer Science",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 42,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "177",
+        "isOffered": true,
+        "subjectDesc": "Topics in Net-Centric Computing",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 43,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "178",
+        "isOffered": true,
+        "subjectDesc": "Topics in Software Technology",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 44,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "179",
+        "isOffered": true,
+        "subjectDesc": "Topics in Computer Systems",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 45,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "180",
+        "isOffered": true,
+        "subjectDesc": "Computer Simulation and Modeling",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 46,
+        "subjectId": 1,
+        "courseTypeId": 5,
+        "subjectNum": "181",
+        "isOffered": true,
+        "subjectDesc": "Introduction to Parallel Computing",
+        "yearLvl": null,
+        "semester": null
+    },
+  {
+        "id": 47,
+        "subjectId": 5,
+        "courseTypeId": 1,
+        "subjectNum": "1",
+        "isOffered": true,
+        "subjectDesc": "Self and Society 1",
+        "yearLvl": 1,
+        "semester": 1
+    },
+  {
+        "id": 48,
+        "subjectId": 14,
+        "courseTypeId": 1,
+        "subjectNum": "1",
+        "isOffered": true,
+        "subjectDesc": "Kasaysayan ng Pilipinas",
+        "yearLvl": 1,
+        "semester": 1
+    },
+  {
+        "id": 49,
+        "subjectId": 3,
+        "courseTypeId": 6,
+        "subjectNum": "1",
+        "isOffered": true,
+        "subjectDesc": null,
+        "yearLvl": 1,
+        "semester": 1
+    },
+  {
+        "id": 50,
+        "subjectId": 3,
+        "courseTypeId": 6,
+        "subjectNum": "2",
+        "isOffered": true,
+        "subjectDesc": null,
+        "yearLvl": 1,
+        "semester": 2
+    },
+  {
+        "id": 51,
+        "subjectId": 7,
+        "courseTypeId": 7,
+        "subjectNum": "1",
+        "isOffered": true,
+        "subjectDesc": "National Service Training Program 1",
+        "yearLvl": 1,
+        "semester": 1
+    },
+  {
+        "id": 52,
+        "subjectId": 7,
+        "courseTypeId": 7,
+        "subjectNum": "2",
+        "isOffered": true,
+        "subjectDesc": "National Service Training Program 2",
+        "yearLvl": 1,
+        "semester": 2
+    },
+  {
+        "id": 53,
+        "subjectId": 8,
+        "courseTypeId": 1,
+        "subjectNum": "10",
+        "isOffered": true,
+        "subjectDesc": "Critical Perspectives in Communication",
+        "yearLvl": 1,
+        "semester": 2
+    },
+  {
+        "id": 54,
+        "subjectId": 9,
+        "courseTypeId": 1,
+        "subjectNum": "11",
+        "isOffered": true,
+        "subjectDesc": "Living Systems: Concenpts and Dynamics",
+        "yearLvl": 1,
+        "semester": 2
+    },
+  {
+        "id": 55,
+        "subjectId": 2,
+        "courseTypeId": 1,
+        "subjectNum": "1",
+        "isOffered": true,
+        "subjectDesc": "Ethics and Moral Reasoning in Everyday Life",
+        "yearLvl": 2,
+        "semester": 1
+    },
+  {
+        "id": 56,
+        "subjectId": 12,
+        "courseTypeId": 1,
+        "subjectNum": "1",
+        "isOffered": true,
+        "subjectDesc": "Critical Perspectives in the Art",
+        "yearLvl": 2,
+        "semester": 2
+    },
+  {
+        "id": 57,
+        "subjectId": 2,
+        "courseTypeId": 1,
+        "subjectNum": "10",
+        "isOffered": true,
+        "subjectDesc": "Mathematics, Culture and Society",
+        "yearLvl": 2,
+        "semester": 2
+    },
+  {
+        "id": 58,
+        "subjectId": 13,
+        "courseTypeId": 1,
+        "subjectNum": "1",
+        "isOffered": true,
+        "subjectDesc": "Science, Technology and Society",
+        "yearLvl": 3,
+        "semester": 1
+    },
+  {
+        "id": 59,
+        "subjectId": 2,
+        "courseTypeId": 3,
+        "subjectNum": "53",
+        "isOffered": true,
+        "subjectDesc": "Elementary Analysis 1",
+        "yearLvl": 1,
+        "semester": 1
+    },
+  {
+        "id": 60,
+        "subjectId": 2,
+        "courseTypeId": 3,
+        "subjectNum": "54",
+        "isOffered": true,
+        "subjectDesc": "Elementary Analysis 2",
+        "yearLvl": 1,
+        "semester": 2
+    },
+  {
+        "id": 61,
+        "subjectId": 6,
+        "courseTypeId": 3,
+        "subjectNum": "123",
+        "isOffered": true,
+        "subjectDesc": "Probability and Statistics",
+        "yearLvl": 1,
+        "semester": 1
+    }
+]
