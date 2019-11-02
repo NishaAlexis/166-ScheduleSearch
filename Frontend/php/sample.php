@@ -9,7 +9,7 @@
         echo "<p>Success!</p>";
     }
 
-    function subjectsTable() {
+
         $result = pg_query($db_connection, "SELECT * FROM subjects");
 
         echo "<table id='tableSubjects'>";
@@ -20,7 +20,7 @@
             echo "</tr>";
         }
         echo "</table>";
-    }
+
 
 
 ?>
