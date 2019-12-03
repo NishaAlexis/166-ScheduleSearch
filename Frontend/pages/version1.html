@@ -4,7 +4,21 @@
     <title>Schedule Searcher</title>
     <!-- <script src="scripts/filterDate.js"></script> -->
     <script src="scripts/index.js"></script>
-    <script src="scripts/fetchData.js"></script>
+    <script>
+      function queryGen() {
+        var yearData = document.getElementById("year").value;
+        var semData = document.getElementById("sem").value;
+
+        data = { 'year': yearData, 'sem': semData };
+
+        const ret = [];
+        for (let d in data)
+          ret.push(encodeURIComponent(d) + '=' + encodeURIComponent(data[d]));
+        url = '../sample.html?' + ret.join('&');
+        window.open(url, "_self");
+      }
+
+    </script>
   </head>
 
   <body>
@@ -18,26 +32,27 @@
 
       <div id="studentForms" >
         <!-- <form id="studentInfo" action="pages/courseList.php" method="POST" onSubmit="return myFunction()"> -->
-        <form>
+        <form id='studentInfo' action='#' onsubmit="queryGen()">
           Year Level:
           <select id="year">
-            <option value="First">First Year</option>
-            <option value="Second">Second Year</option>
-            <option value="Third">Third Year</option>
-            <option value="Fourth">Fourth Year</option>
+            <option value="1">First Year</option>
+            <option value="2">Second Year</option>
+            <option value="3">Third Year</option>
+            <option value="4">Fourth Year</option>
           </select>
           <br>
           Semester:
           <select id="sem">
-            <option value="First">First Semester</option>
-            <option value="Second">Second Semester</option>
-            <option value="Midyear">Mid-Year</option>
+            <option value="1">First Semester</option>
+            <option value="2">Second Semester</option>
+            <option value="3">Mid-Year</option>
           </select>
           <br>
+          <button id="trigger" type="submit">Proceed</button>
         </form>
         <br>
       </div>
-      <button id="trigger" onclick="proceed()">Proceed</button>
+
 
       <div id="hiddenCourse" style="display:none">
           <table id="course-table">
