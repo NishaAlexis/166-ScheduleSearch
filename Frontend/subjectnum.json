@@ -553,152 +553,254 @@
     },
   {
         "id": 47,
-        "subjectId": 5,
-        "courseTypeId": 1,
+        "subjectName": "Self And Society",
+		    "acro": "SAS",
         "subjectNum": "1",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Self and Society 1",
         "yearLvl": 1,
-        "semester": 1
+        "semester": 1,
+        "abbr": "SAS 1"
     },
   {
         "id": 48,
-        "subjectId": 14,
-        "courseTypeId": 1,
+        "subjectName": "Kasaysayan",
+		    "acro": "KAS",
         "subjectNum": "1",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Kasaysayan ng Pilipinas",
         "yearLvl": 1,
-        "semester": 1
+        "semester": 1,
+        "abbr": "KAS 1"
     },
   {
         "id": 49,
-        "subjectId": 3,
-        "courseTypeId": 6,
+        "subjectName": "Physical Education",
+		    "acro": "PE",
         "subjectNum": "2",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": null,
         "yearLvl": 1,
-        "semester": 1
+        "semester": 1,
+        "abbr": "PE 2"
     },
   {
         "id": 50,
-        "subjectId": 3,
-        "courseTypeId": 6,
+        "subjectName": "Physical Education",
+		    "acro": "PE",
         "subjectNum": "2",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": null,
         "yearLvl": 1,
-        "semester": 2
+        "semester": 2,
+        "abbr": "PE 2"
     },
   {
         "id": 51,
-        "subjectId": 7,
-        "courseTypeId": 7,
+        "subjectName": "National Service Training Program",
+		    "acro": "NSTP",
         "subjectNum": "1",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "National Service Training Program 1",
         "yearLvl": 1,
-        "semester": 1
+        "semester": 1,
+        "abbr": "NSTP 1"
     },
   {
         "id": 52,
-        "subjectId": 7,
-        "courseTypeId": 7,
+        "subjectName": "National Service Training Program",
+		    "acro": "NSTP",
         "subjectNum": "2",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "National Service Training Program 2",
         "yearLvl": 1,
-        "semester": 2
+        "semester": 2,
+        "abbr": "NSTP 2"
     },
   {
         "id": 53,
-        "subjectId": 8,
-        "courseTypeId": 1,
+        "subjectName": "Communication",
+		    "acro": "COMM",
         "subjectNum": "10",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Critical Perspectives in Communication",
         "yearLvl": 1,
-        "semester": 2
+        "semester": 2,
+        "abbr": "COMM 10"
     },
   {
         "id": 54,
-        "subjectId": 9,
-        "courseTypeId": 1,
+        "subjectName": "SCIENCE",
+		    "acro": "SCIENCE",
         "subjectNum": "11",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Living Systems: Concenpts and Dynamics",
         "yearLvl": 1,
-        "semester": 2
+        "semester": 2,
+        "abbr": "SCIENCE 11"
     },
   {
         "id": 55,
-        "subjectId": 2,
-        "courseTypeId": 1,
+        "subjectName": "ETHICS",
+		    "acro": "ETHICS",
         "subjectNum": "1",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Ethics and Moral Reasoning in Everyday Life",
         "yearLvl": 2,
-        "semester": 1
+        "semester": 1,
+        "abbr": "ETHICS 1"
     },
   {
         "id": 56,
-        "subjectId": 12,
-        "courseTypeId": 1,
+        "subjectName": "ARTS",
+		    "acro": "ARTS",
         "subjectNum": "1",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Critical Perspectives in the Art",
         "yearLvl": 2,
-        "semester": 2
+        "semester": 2,
+        "abbr": "ARTS 1"
     },
   {
         "id": 57,
-        "subjectId": 2,
-        "courseTypeId": 1,
+        "subjectName": "Mathematics",
+		    "acro": "MATH",
         "subjectNum": "10",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Mathematics, Culture and Society",
         "yearLvl": 2,
-        "semester": 2
+        "semester": 2,
+        "abbr": "MATH 10"
     },
   {
         "id": 58,
-        "subjectId": 13,
-        "courseTypeId": 1,
+        "subjectName": "Science, Technology and Society",
+		    "acro": "STS",
         "subjectNum": "1",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Science, Technology and Society",
         "yearLvl": 3,
-        "semester": 1
+        "semester": 1,
+        "abbr": "STS 1"
     },
   {
         "id": 59,
-        "subjectId": 2,
-        "courseTypeId": 3,
+        "subjectName": "Mathematics",
+		    "acro": "MATH",
         "subjectNum": "53",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Elementary Analysis 1",
         "yearLvl": 1,
-        "semester": 1
+        "semester": 1,
+        "abbr": "MATH 53"
     },
   {
         "id": 60,
-        "subjectId": 2,
-        "courseTypeId": 3,
+        "subjectName": "Mathematics",
+		    "acro": "MATH",
         "subjectNum": "54",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Elementary Analysis 2",
         "yearLvl": 1,
-        "semester": 2
+        "semester": 2,
+        "abbr": "MATH 54"
     },
   {
         "id": 61,
-        "subjectId": 6,
-        "courseTypeId": 3,
+        "subjectName": "Statistics",
+		    "acro": "STAT",
         "subjectNum": "123",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Probability and Statistics",
         "yearLvl": 1,
-        "semester": 1
+        "semester": 1,
+        "abbr": "STAT 123"
+    },
+  {
+      "id": 62,
+      "subjectName": "Mathematics",
+      "acro": "MATH",
+      "subjectNum": "55",
+      "isElective": false,
+      "isOffered": true,
+      "subjectDesc": "Elementary Analysis 3",
+      "yearLvl": 2,
+      "semester": 1,
+      "abbr": "MATH 55"
+    },
+  {
+      "id": 63,
+      "subjectName": "Physical Education",
+      "acro": "PE",
+      "subjectNum": "2",
+      "isElective": false,
+      "isOffered": true,
+      "subjectDesc": null,
+      "yearLvl": 2,
+      "semester": 1,
+      "abbr": "PE 2"
+    },
+  {
+      "id": 64,
+      "subjectName": "Physical Education",
+      "acro": "PE",
+      "subjectNum": "2",
+      "isElective": false,
+      "isOffered": true,
+      "subjectDesc": null,
+      "yearLvl": 2,
+      "semester": 2,
+      "abbr": "PE 2"
+    },
+  {
+      "id": 65,
+      "subjectName": "PHYSICS",
+		  "acro": "PHYSICS",
+      "subjectNum": "81",
+      "isElective": false,
+      "isOffered": true,
+      "subjectDesc": null,
+      "yearLvl": 1,
+      "semester": 2,
+      "abbr": "PHYSICS 81"
+    },
+  {
+      "id": 66,
+      "subjectName": "PHYSICS",
+		  "acro": "PHYSICS",
+      "subjectNum": "82",
+      "isElective": false,
+      "isOffered": true,
+      "subjectDesc": null,
+      "yearLvl": 2,
+      "semester": 1,
+      "abbr": "PHYSICS 82"
+    },
+  {
+      "id": 67,
+      "subjectName": "PI",
+		  "acro": "PI",
+      "subjectNum": "100",
+      "isElective": false,
+      "isOffered": true,
+      "subjectDesc": null,
+      "yearLvl": 3,
+      "semester": 2,
+      "abbr": "PI 100"
     }
 ]
