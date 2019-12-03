@@ -16,11 +16,6 @@ describe('Checkout Firebase app', function() {
 
     it('Opens firebase app', async function() {
         await driver.get('https://schedule-search.firebaseapp.com');
-        //await driver.findElement(By.id('lst-ib')).click();
-        // Enter keywords and click enter
-        //await driver.findElement(By.id('lst-ib')).sendKeys('dalenguyen', Key.RETURN);
-        // Wait for the results box by id
-        //await driver.wait(until.elementLocated(By.id('rcnt')), 10000);
 
         let title = await driver.getTitle();
         assert.equal(title, 'Schedule Searcher');

@@ -1,9 +1,0 @@
-[
-	{ "id": 1, "courseType": "General Education" },
-	{ "id": 2, "courseType": "Major" },
-	{ "id": 3, "courseType": "Foundation" },
-	{ "id": 4, "courseType": "Mandated" },
-	{ "id": 5, "courseType": "Elective" },
-	{ "id": 6, "courseType": "PE" },
-	{ "id": 7, "courseType": "NSTP" }
-]

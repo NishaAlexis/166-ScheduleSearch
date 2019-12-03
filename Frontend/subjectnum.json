@@ -1,463 +1,555 @@
 [
     {
         "id": 1,
-        "subjectId": 1,
-        "courseTypeId": 3,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "11",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Introduction to Computer Science",
         "yearLvl": 1,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 11"
     },
   {
         "id": 2,
-        "subjectId": 1,
-        "courseTypeId": 3,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "21",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Fundamentals of Programming",
         "yearLvl": 1,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 21"
     },
   {
         "id": 3,
-        "subjectId": 1,
-        "courseTypeId": 3,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "56",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Discrete Mathematical Structures in Computer Science 1",
         "yearLvl": 1,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 56"
     },
   {
         "id": 4,
-        "subjectId": 1,
-        "courseTypeId": 3,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "57",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Discrete Mathematical Structures in Computer Science 2",
         "yearLvl": 1,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 57"
     },
   {
         "id": 5,
-        "subjectId": 1,
-        "courseTypeId": 3,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "23",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Programming Paradigms",
         "yearLvl": 2,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 23"
     },
   {
         "id": 6,
-        "subjectId": 1,
-        "courseTypeId": 3,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "123",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Data Structures",
         "yearLvl": 2,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 123"
     },
   {
         "id": 7,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "130",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Logic Design and Digital Computer Circuits",
         "yearLvl": 2,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 130"
     },
   {
         "id": 8,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "106",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Research Methods for Computer Science",
         "yearLvl": 2,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 106"
     },
   {
         "id": 9,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "127",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "File Processing and Database Systems",
         "yearLvl": 2,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 127"
     },
   {
         "id": 10,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "133",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Introduction to Computer Organization, Architecture and Machine-Level Programming",
         "yearLvl": 2,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 133"
     },
   {
         "id": 11,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "141",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Introduction to the Theory of Computation",
         "yearLvl": 2,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 141"
     },
   {
         "id": 12,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "110",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Technical Writing for Computer Science",
         "yearLvl": 3,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 110"
     },
   {
         "id": 13,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "124",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Design and Implementation of Programming Languages",
         "yearLvl": 3,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 124"
     },
   {
         "id": 14,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "128",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Software Engineering 1",
         "yearLvl": 3,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 128"
     },
   {
         "id": 15,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "142",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Design and Analysis of Algorithms",
         "yearLvl": 3,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 142"
     },
   {
         "id": 16,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "192",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Ethical and Professional Issues of Computing",
         "yearLvl": 3,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 192"
     },
   {
         "id": 17,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "194.1",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Research Intership 1",
         "yearLvl": 3,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 194.1"
     },
   {
         "id": 18,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "125",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Operating Systems",
         "yearLvl": 3,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 125"
     },
   {
         "id": 19,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "129",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Software Engineering 2",
         "yearLvl": 3,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 129"
     },
   {
         "id": 20,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "170",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Introduction to Artificial Intelligence",
         "yearLvl": 3,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 170"
     },
   {
         "id": 21,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "194.2",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Research Internship 2",
         "yearLvl": 3,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 194.2"
     },
   {
         "id": 22,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "195",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Practicum",
         "yearLvl": 3,
-        "semester": 3
+        "semester": 3,
+        "abbr": "CMSC 195"
     },
   {
         "id": 23,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "137",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Data Communication and Networking",
         "yearLvl": 4,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 137"
     },
   {
         "id": 24,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "173",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Machine Learning",
         "yearLvl": 4,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 173"
     },
   {
         "id": 25,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "198.1",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Special Problem 1",
         "yearLvl": 4,
-        "semester": 1
+        "semester": 1,
+        "abbr": "CMSC 198.1"
     },
   {
         "id": 26,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "134",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Introduction to Computer Security",
         "yearLvl": 4,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 134"
     },
   {
         "id": 27,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "196",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Technopreneurship",
         "yearLvl": 4,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 196"
     },
   {
         "id": 28,
-        "subjectId": 1,
-        "courseTypeId": 2,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "198.2",
+        "isElective": false,
         "isOffered": true,
         "subjectDesc": "Special Problem 2",
         "yearLvl": 4,
-        "semester": 2
+        "semester": 2,
+        "abbr": "CMSC 198.2"
     },
   {
         "id": 29,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "22",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Fundamentals of Object-Oriented Programming",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 22"
     },
   {
         "id": 30,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "126",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Web Engineering",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 126"
     },
   {
         "id": 31,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "143",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Computability",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 143"
     },
   {
         "id": 32,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "151",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Systems Analysis and Design",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 151"
     },
   {
         "id": 33,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "152",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Management Information Systems",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 152"
     },
   {
         "id": 34,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "153",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Accounting and Information Systems",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 153"
     },
   {
         "id": 35,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "161",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Interactive Computer Graphics",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 161"
     },
   {
         "id": 36,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "162",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "3D Computer Graphics and Animation",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 162"
     },
   {
         "id": 37,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "165",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Introduction to Project Management",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 165"
     },
   {
         "id": 38,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "166",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Introduction to Quality Concepts",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 166"
     },
   {
         "id": 39,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "167",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Software Validation and Verification",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 167"
     },
   {
         "id": 40,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "171",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Expert Systems and Knowledge Engineering",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 171"
     },
   {
         "id": 41,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "176",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Topics in Theoretical Computer Science",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 176"
     },
   {
         "id": 42,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "177",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Topics in Net-Centric Computing",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 177"
     },
   {
         "id": 43,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "178",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Topics in Software Technology",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 178"
     },
   {
         "id": 44,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "179",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Topics in Computer Systems",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 179"
     },
   {
         "id": 45,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "180",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Computer Simulation and Modeling",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 180"
     },
   {
         "id": 46,
-        "subjectId": 1,
-        "courseTypeId": 5,
+        "subjectName": "Computer Science",
+		    "acro": "CMSC",
         "subjectNum": "181",
+        "isElective": true,
         "isOffered": true,
         "subjectDesc": "Introduction to Parallel Computing",
         "yearLvl": null,
-        "semester": null
+        "semester": null,
+        "abbr": "CMSC 181"
     },
   {
         "id": 47,
@@ -483,7 +575,7 @@
         "id": 49,
         "subjectId": 3,
         "courseTypeId": 6,
-        "subjectNum": "1",
+        "subjectNum": "2",
         "isOffered": true,
         "subjectDesc": null,
         "yearLvl": 1,
