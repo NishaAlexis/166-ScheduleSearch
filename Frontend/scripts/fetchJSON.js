@@ -11,7 +11,7 @@ xmlhttp.onreadystatechange = function() {
 		// p = unescape(temp[1]);
 
 		var cols = Headers(list, '#table'); //var cols = Headers(list, '#table');
-		console.log(cols);
+		//console.log(cols);
 		var newList = getRandomSchedules(list, 2, 1);
 		for (var i = 0; i < newList.length; i++) {
 			var row = $('<tr/>');
@@ -57,7 +57,7 @@ xmlhttp.onreadystatechange = function() {
 					// k (header) is in columns (header array)
 					columns.push('abbr');
 					// Creating the header
-					header.append($('<th/>').html('abbr'));
+					header.append($('<th/>').html('First Year, First Semester'));
 				}
 				// }
 				schedules.push(row);
@@ -74,11 +74,11 @@ xmlhttp.onreadystatechange = function() {
 			var tempSchedules = [];
 			for (var i = 0; i < schedules.length; i++) {
 				// console.log(schedules[i]);
-				if (schedules[i].yearLvl == yearLevel && schedules[i].semester == semester) {
+				//if (schedules[i].yearLvl == 1 && schedules[i].semester == 1) {
 					tempSchedules.push(schedules[i]);
-				}
+				
 			}
-			return tempSchedules;
+			return tempSchedules
 		}
 	}
 };

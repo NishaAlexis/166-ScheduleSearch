@@ -5,218 +5,72 @@
     <!-- <script src="scripts/filterDate.js"></script> -->
     <script src="scripts/index.js"></script>
     <script src="scripts/fetchData.js"></script>
+    <script src="./scripts/fetchJSON.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
 
-  <body>
+  <style>
+        .main {
+            display:block;
+            position:relative;
+            padding-left:45px;
+            margin-bottom:15px;
+            cursor:pointer;
+            font-size:20px;
+        }    
 
-      <div>
-        <h1>Schedule Searcher</h1>
-        <hr>
-      </div>
+        .geerkmark {
+            position:absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: black;
+        }
 
-      <div id="studentForms" >
+        .main:hover input ~ .geerkmark{
+            background-color: blue;
+        }
 
+        .geerkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        .main input:checked ~ .geekmark:after {
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div class = "container">
         <h2><center>Choosing Subjects</center></h2>
         <p>Choose the subjects you need to take this semester</p>
         <form>
             <p><b>First Year, First Semester</b></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> SAS 1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> KAS 1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 11</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 56</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> MATH 53</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> STAT 123</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = "">PE 1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = "">NSTP 1</label>
-                </div>
-            <p><b>First Year, Second Semester</b></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> COMM 10</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> SCIENCE 11</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 21</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 57</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> MATH 54</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> PHYSICS 81</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> PHYSICS 81.1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> PE 2</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> NSTP 2</label>
-                </div>
-            <p><b>Second Year, First Semester</b></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> ETHICS 1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 23</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 123</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 130</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> MATH 55</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> PHYSICS 82</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> PHYSICS 82.1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> PE 2</label>
-                </div>
+                <table align="left" id="table" border="1"></table>
+            <!-- <p><b>First Year, Second Semester</b></p>
+
+            <p><b >Second Year, First Semester</b></p>
+            
             <p><b>Second Year, Second Semester</b></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> ARTS 1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> MATH 10</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 106</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 127</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 133</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 141</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> PE 2</label>
-                </div>
+                
             <p><b>Third Year, First Semester</b></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> STS 1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> GE Elective</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 110</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 124</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 128</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 142</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 192</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 194.1</label>
-                </div>
+                
             <p><b>Third Year, Second Semester</b></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> GE Elective</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 125</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 129</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 170</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 194.2</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> PI 100</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> Elective</label>
-                </div>
+                
             <p><b>Third Year, Midyear Term</b></v></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 195</label>
-                </div>
+                
             <p><b>Fourth Year, First Semester</b></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> GE Elective</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 137</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 173</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 198.1</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> Elective</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> Elective</label>
-                </div>
-            <p><b>Fourth Year, Second Semester</b></p>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> GE Elective</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 134</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 196</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> CMSC 198.2</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> Elective</label>
-                </div>
-                <div class = "checkbox">
-                    <label><input type = "checkbox" value = ""> Free Elective</label>
-                </div>
+                
+            <p><b>Fourth Year, Second Semester</b></p> -->
+                
         </form>
-
-        <br>
-      </div>
-
-      <button id="trigger" onclick="proceed()">Proceed</button>
-
-  </body>
-
+    </div>
+    <button id="trigger" onclick="proceed()">Proceed</button>
+</body>
 <!--
 
 const formToJSON = elements => [].reduce.call(elements, (data, element) => {
