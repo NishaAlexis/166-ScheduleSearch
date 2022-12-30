@@ -5,7 +5,7 @@
 	"dependencies": {
 		"browser": "^0.2.6",
 		"chai": "^4.2.0",
-		"mocha": "^6.2.1",
+		"mocha": "^10.2.0",
 		"sinon": "^7.5.0"
 	}
 }
